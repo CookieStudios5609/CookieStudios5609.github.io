@@ -1,9 +1,11 @@
 body {
+    /* #e2f2ff #ff9114 #1481ff #34B6FF */
     margin: 0% auto;
     height: 100vh;
     overflow: hidden;
     font-family: 'Ubuntu', sans-serif;
-    background: linear-gradient(0deg, rgb(233, 233, 233) 34%, rgba(0,115,255,1) 100%);
+    background: linear-gradient(0deg, #1481FF 34%, #34B6FF 100%);
+    color: #e2f2ff;
 }
 .mains {
     overflow: scroll;
@@ -23,7 +25,6 @@ body {
     display: block;
     text-align: center;
     font-size: 8vw;
-    color: white;
 }
 .landing h1 {
     margin: 0%;
@@ -39,4 +40,36 @@ body {
     text-align: center;
     font-size: 5vw;
     color: rgb(0, 0, 0);
+}
+.content {
+    text-align: center;
+}
+.content h1 {
+    font-size: 48px;
+}
+.infogrid {
+    width: 75%;
+    margin: auto;
+    /* outline: 4px #e2f2ff solid; */
+    border-radius: 25px;
+    display: grid;
+    justify-content: center;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
+}
+.card {
+    background-color: #a2d5ff;
+    outline: 2px #ffffff solid;
+    border-radius: 25px;
+    text-align: start;
+    box-shadow: -7px 1rem 1.2rem rgba(0,0,0,.2);
+}
+.card img {
+    padding: 10px;
+    width: 20%;
+    height: auto;
+    float: left;
+}
+.card p, h3 {
+    width: 100%;
 }
